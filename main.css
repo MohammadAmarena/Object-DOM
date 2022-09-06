@@ -1,0 +1,60 @@
+body {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body button {
+  position: absolute;
+  width: 100px;
+  padding: 15px;
+  background-color: wheat;
+  left: 10%;
+}
+body div {
+  width: 100%;
+}
+body div table {
+  border: 3px solid rgb(0, 0, 0);
+  box-shadow: 0 0 9px rgb(255, 80, 147) inset;
+  text-shadow: 2px 2px 1px rgb(1, 2, 0);
+  color: rgb(255, 255, 255);
+  border-collapse: collapse;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 20px auto;
+}
+body div table td {
+  border: 2px solid rgb(45, 219, 158);
+  padding: 20px;
+  width: 100vw;
+  background-color: rgb(66, 0, 0);
+  text-align: center;
+  box-shadow: 0 0 15px 1px rgb(251, 192, 0);
+}
+@media (max-width: 767px) {
+  body div table td {
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 400px;
+  }
+}
+
+h1 {
+  text-align: center;
+  width: fit-content;
+  transform: skew(25deg);
+  border-radius: 4px;
+  font-style: italic;
+  padding: 9px;
+  margin: 10px auto;
+  background-color: rgba(245, 251, 133, 0.3);
+  color: rgb(78, 56, 56);
+  text-shadow: 2px 2px 1px rgb(1, 2, 0);
+  box-shadow: 0 0 25px 1px rgb(251, 192, 0) inset;
+}
+
+/*# sourceMappingURL=main.css.map */
